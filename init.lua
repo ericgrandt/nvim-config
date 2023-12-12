@@ -1,4 +1,7 @@
-require("eric")
+require("eric.core.lazy")
+require("eric.core.remap")
+
+require("eric.plugins.colors")
 
 vim.o.expandtab = true
 
