@@ -2,6 +2,10 @@ require("eric.core.lazy")
 require("eric.core.remap")
 
 require("eric.plugins.colors")
+require("eric.plugins.telescope")
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 vim.o.expandtab = true
 

@@ -13,7 +13,22 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 local plugins = {
-    { "catppuccin/nvim", name = "catppuccin", priority = 1000 }
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    {
+        'nvim-telescope/telescope.nvim', tag = '0.1.5',
+        dependencies = { 'nvim-lua/plenary.nvim' }
+    },
+    {
+        "nvim-tree/nvim-tree.lua",
+        version = "*",
+        lazy = false,
+        dependencies = {
+            "nvim-tree/nvim-web-devicons",
+        },
+        config = function()
+            require("nvim-tree").setup {}
+        end,
+    }
 }
 local opts = {}
 
