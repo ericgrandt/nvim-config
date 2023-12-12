@@ -3,6 +3,8 @@ require("eric.core.remap")
 
 require("eric.plugins.colors")
 require("eric.plugins.telescope")
+require("eric.plugins.tree")
+require("eric.plugins.treesitter")
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1

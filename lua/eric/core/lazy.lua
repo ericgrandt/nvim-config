@@ -28,7 +28,8 @@ local plugins = {
         config = function()
             require("nvim-tree").setup {}
         end,
-    }
+    },
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" }
 }
 local opts = {}
 
