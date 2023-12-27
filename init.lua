@@ -2,6 +2,7 @@ require("eric.core.lazy")
 require("eric.core.remap")
 
 require("eric.plugins.colors")
+require("eric.plugins.lsp")
 require("eric.plugins.telescope")
 require("eric.plugins.tree")
 require("eric.plugins.treesitter")
@@ -18,6 +19,6 @@ vim.o.shiftwidth = 4
 vim.o.wrap = false
 
 vim.o.hlsearch = false
-vim.incsearch = true
+vim.o.incsearch = true
 
 vim.o.termguicolors = true

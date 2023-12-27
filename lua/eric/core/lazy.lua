@@ -29,7 +29,10 @@ local plugins = {
             require("nvim-tree").setup {}
         end,
     },
-    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" }
+    { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+    { "williamboman/mason.nvim" },
+    { "williamboman/mason-lspconfig.nvim" },
+    { "neovim/nvim-lspconfig" }
 }
 local opts = {}
 
