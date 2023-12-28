@@ -15,9 +15,10 @@ vim.opt.rtp:prepend(lazypath)
 local plugins = {
     { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
     {
-        'nvim-telescope/telescope.nvim', tag = '0.1.5',
-        dependencies = { 'nvim-lua/plenary.nvim' }
+        "nvim-telescope/telescope.nvim", tag = "0.1.5",
+        dependencies = { "nvim-lua/plenary.nvim" }
     },
+    { "nvim-telescope/telescope-ui-select.nvim" },
     {
         "nvim-tree/nvim-tree.lua",
         version = "*",
@@ -39,7 +40,12 @@ local plugins = {
     { "hrsh7th/cmp-cmdline" },
     { "hrsh7th/nvim-cmp" },
     { "hrsh7th/cmp-vsnip" },
-    { "hrsh7th/vim-vsnip" }
+    { "hrsh7th/vim-vsnip" },
+    {
+        "windwp/nvim-autopairs",
+        event = "InsertEnter",
+        opts = {}
+    }
 }
 local opts = {}
 
