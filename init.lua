@@ -4,6 +4,7 @@ require("eric.core.remap")
 
 require("eric.plugins.colors")
 require("eric.plugins.lsp")
+require("eric.plugins.neotest")
 require("eric.plugins.nvim-cmp")
 require("eric.plugins.telescope")
 require("eric.plugins.tree")
