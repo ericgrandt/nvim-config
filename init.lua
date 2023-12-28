@@ -24,3 +24,9 @@ vim.o.hlsearch = false
 vim.o.incsearch = true
 
 vim.o.termguicolors = true
+
+vim.diagnostic.config({
+    float = {
+        border = 'rounded',
+    },
+})
