@@ -9,3 +9,4 @@ require("neotest").setup({
 vim.keymap.set("n", "<leader>ts", ":lua require(\"neotest\").summary.toggle()<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>tr", ":lua require(\"neotest\").run.run()<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>tf", ":lua require(\"neotest\").run.run(vim.fn.expand(\"%\"))<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>to", ":lua require(\"neotest\").output.open()<CR>", { noremap = true, silent = true })
