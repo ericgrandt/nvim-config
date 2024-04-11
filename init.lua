@@ -3,9 +3,9 @@ require("eric.core.lazy")
 require("eric.core.remap")
 
 require("eric.plugins.colors")
+require("eric.plugins.harpoon")
 require("eric.plugins.lsp")
 require("eric.plugins.lualine")
-require("eric.plugins.neotest")
 require("eric.plugins.nvim-cmp")
 require("eric.plugins.telescope")
 require("eric.plugins.tree")
@@ -34,3 +34,5 @@ vim.diagnostic.config({
         border = 'rounded',
     },
 })
+
+vim.api.nvim_set_option("clipboard", "unnamed")
