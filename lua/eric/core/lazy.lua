@@ -77,6 +77,9 @@ local plugins = {
         dependencies = {
             "nvim-lua/plenary.nvim",
         },
+        keys = {
+            { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+        }
     },
 }
 local opts = {}
