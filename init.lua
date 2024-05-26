@@ -35,10 +35,10 @@ vim.diagnostic.config({
     },
 })
 
-vim.api.nvim_set_option("clipboard", "unnamed")
+vim.api.nvim_set_option('clipboard', 'unnamed')
 
 vim.filetype.add({
     extension = {
-        hurl = "hurl",
+        hurl = 'hurl',
     }
 })
