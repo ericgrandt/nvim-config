@@ -1,6 +1,6 @@
 require("eric.core.autocommands")
-require("eric.core.lazy")
 require("eric.core.remap")
+require("eric.core.lazy")
 
 require("eric.plugins.colors")
 require("eric.plugins.harpoon")
